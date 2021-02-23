@@ -11,4 +11,8 @@
 - CarCrawler : 차량 정보 수집하는 JupyterNoteBook File (2021-02-21)
 - carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리하는 JupyterNoteBook File (2021-02-23)
 
+### Data File
+- data Folder : 차량 정보를 수집한 data File 입니다. 
+- 형식 : CSV File로 10000번 단위마다 Save 됩니다.
+- 
 ### Create At 2021-02-21
