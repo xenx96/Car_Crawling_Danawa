@@ -37,6 +37,12 @@
 - 5개의 Cluster로 진행함(소형,중형,대형,승합,트럭을 생각하고 진행.)
 - Cluster 결과 일부 잘 분류가 진행되었다고 판단되었으나, 트럭과 같은 변수들은 제거 하고 다시 Cluster 하기로 하였음.
 ```
+   
+   ### R 결과
+   - 1차
+    <img src="/graph/before_delete.png" width="450px" height="300px" title="1차 K-Means Clusters" alt="First Cluster"></img><br/>
+   -
+
 ***
 
  
