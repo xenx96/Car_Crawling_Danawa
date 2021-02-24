@@ -18,12 +18,13 @@
 ***
 ### Python Files
 
-- CarCrawler : 차량 정보 수집하는 JupyterNoteBook File (2021-02-21)
-- carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리하는 JupyterNoteBook File (2021-02-23)
+- CarCrawler : 차량 정보 수집. (2021-02-21)
+- carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리. (2021-02-23)
 
 ***   
 ### R Files
-- cluster : R을 활용하여, 간단한 k-means cluster를 진행하였음. (2021-02-23)
+- cluster : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
+- Cluster-2 : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
 
 #### R-Data Processing
 ```
