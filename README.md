@@ -13,7 +13,7 @@
 ### Data File
 - data Folder : 차량 정보를 수집한 data File 입니다. 
 ```
-- 형식 : CSV File로 10000번 단위마다 Save 됩니다.
+- CSV File로 10000번 단위마다 Save 됩니다.
 ```   
 ***
 ### Python Files
