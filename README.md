@@ -50,7 +50,7 @@
    4. 다시 2,3,4번의 Cluster로 재분류 할 예정.
    ```   
       
-   - 2차
+   - 2차   
    <img src="/graph/After_delete_3DScatterPlot.png" href ="/graph/After_delete_3DScatterPlot.html" title="1차 K-Means Clusters" alt="First Cluster"></img><br/> 
 
 ***
