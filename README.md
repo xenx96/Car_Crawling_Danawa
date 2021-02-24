@@ -52,7 +52,8 @@
       
    - 2차   
       
-         <img src="/graph/After_delete_3DScatterPlot.png" href ="/graph/After_delete_3DScatterPlot.html" title="1차 K-Means Clusters" alt="First Cluster"></img><br/> 
+         
+      <img src="/graph/After_delete_3DScatterPlot.png" href ="/graph/After_delete_3DScatterPlot.html" title="1차 K-Means Clusters" alt="First Cluster"></img><br/> 
 
 ***
 
