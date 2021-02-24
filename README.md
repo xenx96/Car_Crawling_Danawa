@@ -42,10 +42,10 @@
    - 1차(트럭과 같은 변수 제거전)   
        <img src="/graph/Before_delete.png" title="1차 K-Means Clusters" alt="First Cluster"></img><br/>   
    ```
-   총 4개의 Cluster 존재.
-   1번 Cluster의 쏠라티,마운티,카운티,메가트럭 변수 제거 예정.
-   3번에 포함되어있는 마이티와 같은 트럭 변수는 제거 예정.
-   다시 2,3,4번의 Cluster로 재분류 할 예정.
+   1. 총 4개의 Cluster.
+   2. 1번 Cluster의 쏠라티,마운티,카운티,메가트럭 변수 제거 예정.
+   3. 3번에 포함되어있는 마이티와 같은 트럭 변수는 제거 예정.
+   4. 다시 2,3,4번의 Cluster로 재분류 할 예정.
    ```   
    -2차
 
