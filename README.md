@@ -40,7 +40,7 @@
    
    ### R 결과
    - 1차
-    <img src="/graph/before_delete.png" width="450px" height="300px" title="1차 K-Means Clusters" alt="First Cluster"></img><br/>
+    <img src="/graph/Before_delete.png" width="450px" height="300px" title="1차 K-Means Clusters" alt="First Cluster"></img><br/>
    -
 
 ***
