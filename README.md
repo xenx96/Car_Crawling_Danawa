@@ -24,7 +24,8 @@
  ```  
 ***
  ## 4. Python Files
- - CarCrawler : 차량 정보 수집. (2021-02-21)
+ - CarCrawler.ipynb : 차량 정보 수집. JupyterNotebook (2021-02-21)
+ - CarCrawler.py : 차량 정보 수집. Pyhon file (2021-02-21)
  ```
 # CarCrawler.py 사용법
 # 약 10000개당 12~14시간 소요됨.
@@ -33,12 +34,12 @@ import CarCrawler.py as Carcrawling
 carCrawling = CarCrawling.carCrawling()# Class를 이용한 Crawling 함수
 carCrawling(start=0,end=50000)
  ```
- - carDataSet : 수집된 차량정보를 정리. (2021-02-23)
+ - carDataSet.ipynb : 수집된 차량정보를 정리. JupyterNotebook (2021-02-23)
 
  ***   
  ## 5. R Files
- - cluster : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
- - Cluster-2 : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
+ - Cluster.R : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
+ - Cluster-2.R : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
 
  ### 5.1 1차 Clustering
  #### 5.1.1 R-Data Processing
@@ -84,7 +85,7 @@ carCrawling(start=0,end=50000)
    - 2차   
       
          
-      <img src="/graph/After_delete_3DScatterPlot.png" href ="/graph/After_delete_3DScatterPlot.html" title="1차 K-Means Clusters" alt="First Cluster"></img><br/> 
+      <img src="/graph/After_delete_3DScatterPlot.png" title="2차 3D K-Means Clusters" alt="First Cluster"></img><br/> 
       ```
       1. 해당 그래프의 3D Interactive Graph 위치 
         - /graph/After_delete_3DScatterPlot.html
