@@ -30,7 +30,7 @@
 # CarCrawler.py 사용법
 # 약 10000개당 12~14시간 소요됨.
    
-import CarCrawler.py as Carcrawling
+import CarCrawler.py as CarCrawling
 carCrawling = CarCrawling.carCrawling()# Class를 이용한 Crawling 함수
 carCrawling(start=0,end=50000)
  ```
