@@ -15,9 +15,10 @@
 
 ***
 ### Python Files
+```
 - CarCrawler : 차량 정보 수집하는 JupyterNoteBook File (2021-02-21)
 - carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리하는 JupyterNoteBook File (2021-02-23)
-
+```
 ***
 ### R Files
 - cluster : R을 활용하여, 간단한 k-means cluster를 진행하였음. (2021-02-23)
@@ -33,8 +34,8 @@
 - Clustering 진행시, 부피에 따른 Cluster 진행. 따라서, 새로운 vh라는 변수를 생성하였음.
 - vh는 (전장 * 전폭)으로 (가로 * 세로)로 만든 넓이 데이터임.
 - vh와 전고(높이)로 부피 관련 K-means Clustering을 진행.
-- 5개의 Cluster로 진행함(__소형,중형,대형,승합,트럭__을 생각하고 진행.)
-- Cluster 결과 일부 잘 분류가 진행되었다고 판단되었으나, 트럭과 같은 변수들은 __제거__ 하고 다시 Cluster 하기로 하였음.
+- 5개의 Cluster로 진행함(소형,중형,대형,승합,트럭을 생각하고 진행.)
+- Cluster 결과 일부 잘 분류가 진행되었다고 판단되었으나, 트럭과 같은 변수들은 제거 하고 다시 Cluster 하기로 하였음.
 ```
 ***
 
