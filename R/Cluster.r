@@ -1,6 +1,13 @@
+#Global Options
+options(scipen = 999)
+
+##packages
 require(cluster)
 require(dplyr)
 require(data.table)
+require(ggplot2)
+require(plotly)
+
 ##Directory Setting
 dir=paste(getwd(),'/GitHub/Car_Crawling_Danawa/data',sep="")
 dir = gsub('문서','Documents',dir)
@@ -37,4 +44,26 @@ df <- merge(df,aggregate(전폭~차명,data,mean),by='차명')
 df$전장<-round(df$전장)
 df$전고<-round(df$전고)
 df$전폭<-round(df$전폭)
+
+#가로 x 세로 Data
+df$vh <- df$전장*df$전폭
+
+#Plot 
+plot(df)
+
+#Kmeans Clustering
+##소형/중형/대형/봉고/트럭
+df_kmeans = kmeans(df[,c("전고", "vh")], 5) 
+
+#Counter Cluster
+table(df_kmeans$cluster)
+
+df$cluster <- df_kmeans$cluster %>% as.character
+#ggplot
+
+
+(car_graph<-ggplot(data=df, aes(x=vh, y=전고, colour=cluster,group = 차명)) + 
+  geom_point(shape=19, size=4) + 
+  ggtitle("Scatter Plot of CarData' K-means clusters")) %>% ggplotly
+
 
