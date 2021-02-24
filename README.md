@@ -69,7 +69,8 @@
 #### 5.2.2 R-Clustering
 ```
 - 3차원 Clustering 진행.
-- 위에서 진행한 정규화에 따라
+- 두가지 정규화중 MinMaxScaling로 정규화 진행.
+- 최적 군집수를 판별하여 Clustering.
 ```
    
    #### 5.2.3 R 결과   
@@ -80,7 +81,8 @@
       ```
       1. 해당 그래프의 3D Interactive Graph 위치 
         - /graph/After_delete_3DScatterPlot.html
-      2.
+      2. 기존 2차원으로 vh변수를 만들어 진행하였을때보다 잘 분류됨.
+      3. 추후, 실제 데이터와 차량 군집의 Mapping하여 재분류 및 Cluster 들과의 관계성 파악필요.
       ```
 ***
  
