@@ -54,7 +54,11 @@
       
          
       <img src="/graph/After_delete_3DScatterPlot.png" href ="/graph/After_delete_3DScatterPlot.html" title="1차 K-Means Clusters" alt="First Cluster"></img><br/> 
-
+      ```
+      1. 해당 그래프의 3D Interactive Graph 위치 
+        - /graph/After_delete_3DScatterPlot.html
+      2.
+      ```
 ***
 
  
