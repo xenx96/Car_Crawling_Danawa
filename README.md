@@ -25,6 +25,13 @@
 ***
  ## 4. Python Files
  - CarCrawler : 차량 정보 수집. (2021-02-21)
+ ```
+#CarCrawler.py 사용법
+#약 10000개당 12~14시간 소요됨.
+import CarCrawler.py as Carcrawling
+carCrawling = CarCrawling.carCrawling()# Class를 이용한 Crawling 함수
+carCrawling(start=0,end=50000)
+ ```
  - carDataSet : 수집된 차량정보를 정리. (2021-02-23)
 
  ***   
