@@ -9,29 +9,29 @@
 - Context = 차량의 정보
 - 제공되는 정보 : 전장,전폭,전고,축거 (mm)
 ```   
-***
+> ***
 > ## 2. Data File
-- data Folder : 차량 정보를 수집한 data File 입니다. 
+> - data Folder : 차량 정보를 수집한 data File 입니다. 
 ```
 - CSV File로 10000번 단위마다 Save 됩니다.
 ```   
-***
+> ***
 
 > ## 3. Graph File
 > - Graph Folder : 각종 시각화를 진행하였던 Graph Folder 
- ``` >
-> - 현재 Clustering 관련 png 및 html 파일만 존재.
- ``` >  
-***
+ ``` 
+ - 현재 Clustering 관련 png 및 html 파일만 존재.
+ ```  
+>***
 > ## 4. Python Files
 
-- CarCrawler : 차량 정보 수집. (2021-02-21)
-- carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리. (2021-02-23)
+> - CarCrawler : 차량 정보 수집. (2021-02-21)
+> - carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리. (2021-02-23)
 
-***   
+> ***   
 > ## 5. R Files
-- cluster : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
-- Cluster-2 : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
+> - cluster : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
+> - Cluster-2 : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
 
 >> ### 5.1 1차 Clustering
 >>> #### 5.1.1 R-Data Processing
@@ -58,7 +58,7 @@
    3. 3번에 포함되어있는 마이티와 같은 트럭 변수는 제거 예정.
    4. 다시 2,3,4번의 Cluster로 재분류 할 예정.
    ```   
-***
+>***
    
 >>   ### 5.2 2차 Clustering
 >>> #### 5.2.1 R-Data Processing
@@ -84,8 +84,8 @@
       2. 기존 2차원으로 vh변수를 만들어 진행하였을때보다 잘 분류됨.
       3. 추후, 실제 데이터와 차량 군집의 Mapping하여 재분류 및 Cluster 들과의 관계성 파악필요.
       ```
-***
+> ***
  
 > ## Create At 2021-02-21
-- Update : 2021-02-23(1차 Cluster)
-- Update : 2021-02-23(2차 Cluster 및 변수 제거) 
+> - Update : 2021-02-23(1차 Cluster)
+> - Update : 2021-02-23(2차 Cluster 및 변수 제거) 
