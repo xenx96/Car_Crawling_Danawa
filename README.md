@@ -4,18 +4,18 @@
 - 해당 데이터의 목적은 OASIS Item의 전체 공간 소독시, 차량의 부피 측정을 위한 데이터 수집용 코드입니다.   
    
 ***
-> ## 1. 제공되는 정보
+>## 1. 제공되는 정보
 ```
 - Context = 차량의 정보
 - 제공되는 정보 : 전장,전폭,전고,축거 (mm)
 ```   
-> ***
-> ## 2. Data File
-> - data Folder : 차량 정보를 수집한 data File 입니다. 
+>***
+>## 2. Data File
+>- data Folder : 차량 정보를 수집한 data File 입니다. 
 ```
 - CSV File로 10000번 단위마다 Save 됩니다.
 ```   
-> ***
+>***
 
 > ## 3. Graph File
 > - Graph Folder : 각종 시각화를 진행하였던 Graph Folder 
