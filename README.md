@@ -4,28 +4,29 @@
 - 해당 데이터의 목적은 OASIS Item의 전체 공간 소독시, 차량의 부피 측정을 위한 데이터 수집용 코드입니다.   
    
 ***
-### 제공되는 정보
+## 제공되는 정보
 ```
 - Context = 차량의 정보
 - 제공되는 정보 : 전장,전폭,전고,축거 (mm)
 ```   
 ***
-### Data File
+## Data File
 - data Folder : 차량 정보를 수집한 data File 입니다. 
 ```
 - CSV File로 10000번 단위마다 Save 됩니다.
 ```   
 ***
-### Python Files
+## Python Files
 
 - CarCrawler : 차량 정보 수집. (2021-02-21)
 - carDataSet : 수집된 차량정보를 정리하고, (소,중,대,승합)순으로 정리. (2021-02-23)
 
 ***   
-### R Files
+## R Files
 - cluster : R을 활용하여, 간단한 k-means cluster를 진행. (2021-02-23)
 - Cluster-2 : 1차 Cluster 진행및 수정된 Data를 바탕으로 3차원 Cluster 진행. (2021-02-24)
 
+### 1차 Clustering
 #### R-Data Processing
 ```
 - NA값 제거 및 기타 데이터 수집시 잘못된 차량데이터들 Delete.(해당 차량이 유용하지 않은 차량명이라 판단.)
@@ -41,7 +42,7 @@
 - Cluster 결과 일부 잘 분류가 진행되었다고 판단되었으나, 트럭과 같은 변수들은 제거 하고 다시 Cluster 하기로 하였음.
 ```
    
-   ### R 결과
+   #### R 결과
    - 1차(트럭과 같은 변수 제거전)   
        <img src="/graph/Before_delete.png" title="1차 K-Means Clusters" alt="First Cluster"></img><br/>   
    ```
